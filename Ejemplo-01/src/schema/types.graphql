@@ -1,0 +1,14 @@
+type User {
+  _id: String
+  name: String
+  lastName: String
+  email: String
+  dateBirth: String
+  createdAt: String
+  updatedAt: String
+}
+
+type AuthPayload {
+  token: String
+  user: User
+}

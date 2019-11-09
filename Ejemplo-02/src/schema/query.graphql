@@ -1,0 +1,5 @@
+type Query {
+  status: String
+  users(page: Int = 1, limit: Int = 10): [User]
+  user(id: ID!): User!
+}
